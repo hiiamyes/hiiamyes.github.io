@@ -4,7 +4,8 @@
   "description": "yes's website",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server 'src/' --files 'src/'"
+    "start": "browser-sync start --server 'src/' --files 'src/'",
+    "deploy": "git push origin master && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
