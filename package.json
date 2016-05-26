@@ -1,0 +1,22 @@
+{
+  "name": "hiiamyes.github.io",
+  "version": "1.0.0",
+  "description": "yes's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server 'src/' --files 'src/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiiamyes/hiiamyes.github.io.git"
+  },
+  "author": "yes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiiamyes/hiiamyes.github.io/issues"
+  },
+  "homepage": "https://github.com/hiiamyes/hiiamyes.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5"
+  }
+}
